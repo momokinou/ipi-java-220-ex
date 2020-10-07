@@ -1,7 +1,12 @@
 package com.ipiecoles.java.java220;
+import org.joda.time.LocalDate;
+import java.util.Objects;
 
-/**
- * Created by pjvilloud on 21/09/17.
- */
 public class Employe {
+    private String nom;
+    private String prenom;
+    private String matricule;
+    private LocalDate dateEmbauche;
+    private Double Salaire = Entreprise.SALAIRE_BASE;
+    public Employe();
 }
